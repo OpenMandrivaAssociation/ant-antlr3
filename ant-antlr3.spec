@@ -1,6 +1,6 @@
 Name: ant-antlr3
 Version: 20110110
-Release: 3
+Release: 5
 Summary: Antlr3 task for Ant
 Group: Development/Java	
 License: ASL 2.0
