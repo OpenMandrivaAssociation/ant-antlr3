@@ -70,3 +70,11 @@ EOF
 %defattr(-,root,root,-)
 %{_javadocdir}/ant-antlr3
 
+
+
+%changelog
+* Sun Nov 27 2011 Guilherme Moro <guilherme@mandriva.com> 20110110-5
++ Revision: 733787
+- rebuild
+- imported package ant-antlr3
+
