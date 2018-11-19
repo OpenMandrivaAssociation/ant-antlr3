@@ -14,10 +14,10 @@ URL: http://antlr.org/
 # zip antlr3-task -r antlr3-task/
 Source0: antlr3-task.zip
 #Source0: http://antlr.org/share/1169924912745/antlr3-task.zip
-BuildRequires: java-devel >= 1:1.6.0
+BuildRequires: java-devel
 BuildRequires: jpackage-utils
 BuildRequires: ant
-Requires: java >= 1:1.6.0
+Requires: java
 Requires: jpackage-utils
 Requires: ant
 BuildArch: noarch
@@ -70,27 +70,3 @@ EOF
 %files javadoc
 %defattr(-,root,root,-)
 %{_javadocdir}/ant-antlr3
-
-%changelog
-* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20110110-7
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
-
-* Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20110110-6
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
-
-* Wed Jul 18 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20110110-5
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
-
-* Thu Jan 12 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20110110-4
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
-
-* Thu Apr 28 2011 Karel Klíč <kklic@redhat.com> - 20110110-3
-- Fixed the name in /etc/ant.d/ant-antlr3
-
-* Thu Apr 28 2011 Karel Klíč <kklic@redhat.com> - 20110110-2
-- Added /etc/ant.d integration
-- Require jpackage-utils by -javadoc package (needed for directory)
-- Remove bundled jar in %%prep
-
-* Mon Apr 25 2011 Karel Klíč <kklic@redhat.com> - 20110110-1
-- Initial packaging
