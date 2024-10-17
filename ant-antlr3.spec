@@ -5,7 +5,7 @@ Release: 7.0%{?dist}
 Summary: Antlr3 task for Ant
 
 License: ASL 2.0
-URL: http://antlr.org/
+URL: https://antlr.org/
 # Repackaged until rhbz#699529 RPM fix takes place in Fedora.
 # RPM cannot read the upstream zip file.
 # wget http://antlr.org/share/1169924912745/antlr3-task.zip
